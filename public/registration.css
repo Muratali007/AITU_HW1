@@ -1,0 +1,158 @@
+body{
+  font-family: Poppins;
+}
+.header{
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  background: linear-gradient(to right, rgb(133 165 249 / 50%), rgb(154 217 247 / 82%));
+}
+.gradient-custom-3 {
+
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+  background: linear-gradient(to right, rgb(133 165 249 / 50%), rgb(154 217 247 / 82%));
+}
+.gradient-custom-4 {
+
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  background: linear-gradient(to right, rgb(101 160 199), rgb(166 200 216));
+}
+
+.navbar navbar-expand-lg navbar-light{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-link{
+  font-size: 1.5rem;
+}
+.nav-item{
+  padding: 0 15px;
+}
+.navbar{
+  padding-bottom: 5 0 5rem 0;
+}
+
+#checkbox{
+  position: relative;
+  right:-20px;
+  bottom:9px;
+}
+
+.form-check-label{
+  position: relative;
+  right:-30px;
+  bottom:10px;
+}
+.card{
+  width:500px;
+  height:700px;
+}
+#name{
+  width:400px;
+  height:30px;
+  position: relative;
+  bottom:35px;
+}
+#mail{
+  width:400px;
+  height:30px;
+  position: relative;
+  bottom:30px;
+}
+#psw{
+  width:400px;
+  height:30px;
+  position: relative;
+  bottom:25px;
+}
+#password_2{
+  width:400px;
+  height:30px;
+  position: relative;
+  bottom:20px;
+}
+#register_button{
+  width:400px;
+  height:50px;
+  position: relative;
+  bottom:20px;
+}
+#text_1{
+  font-size: 15px;
+  position: relative;
+  bottom:60px;
+}
+#text_2{
+  font-size: 15px;
+  position: relative;
+  top:0px;
+}
+.form-label{
+  font-style:'Poppins';
+}
+#name2{
+  position: relative;
+  bottom:30px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background:white;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 5px;
+  position: relative;
+  padding: 10px;
+  margin-left: 45px;
+  margin-top: 2px;
+}
+
+#message p {
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  font-size: 10px;
+  font-family: 'Poppins';
+  margin-top: 2px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -10px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -10px;
+  content: "✖";
+}
+.psw_111{
+  font-size: 15px;
+  font-family: 'Poppins';
+  color: black;
+}
+
+footer{
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    color: #000;
+    font-family: "Poppins"
+}

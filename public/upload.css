@@ -1,0 +1,38 @@
+.form-control{
+    position: relative;
+    left: 10px;
+  font-family: "Poppins";
+  font-size: 2rem;
+  width:30%;
+}
+.form-group{
+    margin-top: 10px;
+}
+button{
+    position: relative;
+    left:36%;
+}
+.navbar{
+    margin-bottom:70px;
+}
+.upload{
+  position: relative;
+  top:100px;
+  left:200px;
+  width: 800px;
+  height: 300px;
+}
+#footer{
+position: relative;
+top:300px;
+}
+.gradient-custom-4 {
+
+  background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+  background: linear-gradient(to right, rgb(101 160 199), rgb(166 200 216));
+}
+
+#register_button{
+
+}
