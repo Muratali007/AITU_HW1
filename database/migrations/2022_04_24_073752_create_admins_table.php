@@ -19,6 +19,7 @@ return new class extends Migration
             $table->text('lname');
             $table->text('email');
             $table->text('password');
+            $table->text('Rating');
             $table->timestamps();
         });
     }

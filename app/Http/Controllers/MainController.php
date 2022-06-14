@@ -67,6 +67,7 @@ class MainController extends Controller
         $admin->fname=$request->fname;
         $admin->lname=$request->lname;
         $admin->email=$request->email;
+        $admin->Rating=0;
         $admin->password=Hash::make($request->password);
         $save = $admin->save();
 
@@ -114,11 +115,13 @@ class MainController extends Controller
            'CourseName'=>'required',
            'topic'=>'required',
             'lnk'=>'required',
+            'NameAndSurname'=>'required',
             'message'=>'required'
         ]);
         if($this->isOnline()){
             $mail_data=[
                 'recipient'=>'gohelpcode13@gmail.com',
+                'fNameAndSurname'=>$request->NameAndSurname,
                 'fcourseName'=>$request->CourseName,
                 'ftopic'=>$request->topic,
                 'flnk'=>$request->lnk,
