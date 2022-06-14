@@ -1,2 +1,2 @@
 
-{{"Name and Surname: "}}{{$fNameAndSurname}}{{""}}{{"Topic: "}}{{$ftopic}}{{" "}}{{"link: "}}{{$flnk}}{{" "}}{{"message: "}}{{$fmessage}}
+{{"Name and Surname: "}}{{$fNameAndSurname}}{{" "}}{{"Topic: "}}{{$ftopic}}{{" "}}{{"link: "}}{{$flnk}}{{" "}}{{"message: "}}{{$fmessage}}

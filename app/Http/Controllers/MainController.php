@@ -120,7 +120,7 @@ class MainController extends Controller
         ]);
         if($this->isOnline()){
             $mail_data=[
-                'recipient'=>'gohelpcode13@gmail.com',
+                'recipient'=>'gohelpcode13@mail.ru',
                 'fNameAndSurname'=>$request->NameAndSurname,
                 'fcourseName'=>$request->CourseName,
                 'ftopic'=>$request->topic,
