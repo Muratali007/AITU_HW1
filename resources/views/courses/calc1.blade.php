@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>Go-Help</title>
+    <link rel="shortcut icon" href="https://moodle.astanait.edu.kz/theme/image.php/boost/theme/1640173744/favicon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
@@ -39,7 +40,10 @@
                 <a class="nav-link" href="/admin/dashboard">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="course">Courses</a>
+                <a class="nav-link" href="/course">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/upload">Upload</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link">{{$LoggedUserInfo['fname']}}</a>

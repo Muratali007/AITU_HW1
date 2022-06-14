@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>Aitu-Hw</title>
+    <link rel="shortcut icon" href="https://moodle.astanait.edu.kz/theme/image.php/boost/theme/1640173744/favicon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -34,17 +35,18 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="home.html">Home</a>
+                            <a class="nav-link" href="/admin/dashboard">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Information.html">Information</a>
+                            <a class="nav-link" href="/course">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/upload">Upload</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('auth.register')}}">Registration</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacts.html">Contacts</a>
-                        </li>
+
                     </ul>
                 </div>
             </nav>
